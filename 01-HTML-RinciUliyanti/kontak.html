@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Rinci Uliyanti</title>
+</head>
+<style>
+    footer {
+        text-align: center; /* Memusatkan teks */
+        padding: 20px; /* Menambahkan padding */
+        padding: 20px;
+        }
+    nav {
+            text-align: left;
+            padding: 10px;
+        }
+    nav a {
+            font-family: Arial, Helvetica, sans-serif; /* Mengubah font untuk navigasi */
+            margin: 0 15p
+        }
+    nav a:not(:last-child)::after {
+            content: "|";
+            right: -15px;
+            color: #007bff;
+        }
+    
+</style>
+<body>
+    <header>
+        <h1>Kontak.html</h1>
+    </header>
+    <nav>
+            <a href="#">Beranda</a>
+            <a href="index.html">Tentang Saya</a>
+            <a href="kontak.html">Hubungi Saya</a>
+            <a href="file/cv.pdf">CV</a>
+    </nav>
+
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>Hubungi Saya</legend>
+                
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+                <button type="submit">Kirim</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright © 2024 Sehun EXO</p>
+    </footer>
+</body>
+</html>

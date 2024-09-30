@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Rinci Uliyanti</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 2px;
+        }
+        nav {
+            text-align: left;
+            padding: 10px;
+        }
+        nav a {
+            font-family: Arial, Helvetica, sans-serif; /* Mengubah font untuk navigasi */
+            margin: 0 15p
+        }
+        nav a:not(:last-child)::after {
+            content: "|";
+            right: -15px;
+            color: #007bff;
+        }
+        main {
+            padding: 20px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse; /* Agar border terlihat rapi */
+            border: 2px solid #000; /* Border untuk tabel */
+        }
+        th, td {
+            border: 2px solid #000; /* Border untuk setiap cell */
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        footer {
+            background-color: #ffffff; /* Ubah menjadi putih */
+            padding: 20px;
+            margin-top: 0; /* Hilangkan margin atas */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>index.html</h1>
+    </header>
+    <header>
+        <nav>
+           <a href="#">Beranda</a>
+            <a href="index.html">Tentang Saya</a>
+            <a href="kontak.html">Hubungi Saya</a>
+            <a href="file/cv.pdf">CV</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="img/sehun.jpg" alt="Foto Profil">
+            <h2>Sehun</h2>
+            <p><em>(Dosen | Software Engineer)</em></p>
+
+            <h3>Sekilas Tentang Saya</h3>
+            <p>Hi, saya seorang dosen dan juga Software Engineer. Saya sedang belajar pemrograman web dengan HTML, CSS, JS, PHP, dan MySQL di UIN SMDD Bukittinggi.</p>
+
+            <table>
+                <tr>
+                    <th>Hard Skill</th>
+                    <th>Pengalaman</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>HTML, CSS, dan JS</li>
+                            <li>Bootstrap, Materialize, Tailwind</li>
+                            <li>PHP, Laravel, Codeigniter, API</li>
+                            <li>Dart, Flutter (Android, iOS)</li>
+                            <li>MySQL, PostgreSQL, MongoDB</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Freelance Sebagai Web Developer</li>
+                            <li>Fullstack Web Developer di Diskominfo Mukomuko</li>
+                            <li>Web Developer di Ipol Mobil Indo</li>
+                            <li>Staff Personalia PT. Data Dharma Pratama</li>
+                            <li>Staff IT Yayasan Pendidikan Islam</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 Sehun EXO</p>
+    </footer>
+
+</body>
+</html>
